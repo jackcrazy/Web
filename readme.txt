@@ -8,4 +8,8 @@
 8.check the result if success
 9.git remote add origin https://github.com/jackcrazy/Web.git
 10.git push -u origin master
+
+Notice:
 11.remember adding the username and userpwd
+12.if find the fatal about git remote ...
+you can try the code "git remote rm origin"
