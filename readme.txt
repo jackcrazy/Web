@@ -6,5 +6,6 @@
 6.git add readme.txt
 7.git commit -m "write a readme.txt in introducing how to setup the git"
 8.check the result if success
-9.git remote add origin http://github.com/jackcrazy/Web.git
+9.git remote add origin https://github.com/jackcrazy/Web.git
 10.git push -u origin master
+11.remember adding the username and userpwd
