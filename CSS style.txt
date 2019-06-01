@@ -1,0 +1,49 @@
+//这个部分是对于图片背景设置
+1.背景色
+background-color: gray;改变文本的背景色padding: 20px
+其中背景色默认透明  transparent
+
+2.背景图像
+background-image: url(i/eg_bg_03.gif)
+
+3.背景是否拉长，平铺，也就是重复
+background-repeat: repeat-x/repeat-y/repeat/no-repeat
+
+4.背景定位
+background-position:center; 属性值可以使用left,right,top,bottom,也可以使用像素法
+感觉使用百分比会比较好使，使用两个百分比
+
+5.背景关联
+background-attachment:fixed/sroll;默认是sroll，图片随着文字进行滚动，fixed不滚动
+
+//这个部分是文本设置
+6.缩进文本,一般用于所有的块级元素
+text-indent:4em;  
+可以使用负缩进，给出一定效果，但是需要设置外边距或内边距；
+text-indent:-5em;padding-left:5em;
+
+7.水平对齐
+text-align:left/right/center 文本左对齐。。。
+强调一下一个属性值：justify 两端对齐，中间调整间距
+
+8.字间距
+word-spacing:normal 默认值是0即normal,可以是通过px，或者em修改字间距
+
+9.字母间隔
+letter-spacing:normal,同上.与上面不同的是字母间隔改变的是字符之间距离
+
+10.字符转换
+text-transform:none/uppercase/lowercase/capitalize
+其中每个属性值依次是：不动/全大写/全小写/首字母大写
+
+11.文本装饰
+text-decoration:none/underline/overline/line-through/blink
+属性值含义：没有/下划线/上划线/文本中间线/文本闪烁
+注意可以有多个属性值共存，中间空格分开
+
+12处理空白符
+white-space:normal/pre/nowrap/pre-wrap/pre-line/
+属性值含义：丢掉空白和换行/保留/....
+
+13.文本方向：
+direction:ltr/rtl;左右/右左
