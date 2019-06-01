@@ -1,0 +1,46 @@
+1.CSS样式的四个规定 4优先级最高
+	1.浏览器缺省设置
+	2.外部样式表
+	3.内部样式表（<head>标签内部）
+	4.内联样式
+2.CSS样式由选择器和多条声明，各条声明之间用分号隔开,最后一个最好也加一个分号
+3.写颜色时，rgb(100%,0%,0%)
+4.对选择器进行分组;
+h1,h2,h3{
+	color: green;
+}
+5.对于子元素继承父元素的声明问题：大部分是支持的但是有部分并不能很好的支持
+netscape4 解决此问题使用组选择器；还有就是如果希望子元素有单独的声明可以对父元素重写，单独写一个
+6.派生选择器，例子如下：
+h2 strong{
+	color: red;
+}
+
+7.id选择器,每个文档中只能出现一次，但是id选择器作为派生选择器可以使用多次；
+#red{
+	color: red;
+}
+
+8 类选择器,可以多次被定义，类名的第一个字符不能使用数字
+.center{
+	text-align:center;
+}
+元素基于类被选择的写法；
+td.fangcy{
+	color:#f60;
+	background:#666;
+}
+在html写法 <td class ="">
+
+9.属性选择器，可以对属性选择有特殊的选择方法
+input[type="text"]
+{
+  width:150px;
+  display:block;
+  margin-bottom:10px;
+  background-color:yellow;
+  font-family: Verdana, Arial;
+}
+
+10.插入样式表  
+<link rel="stylesheet" type="text/css" href="mystyle.css">
