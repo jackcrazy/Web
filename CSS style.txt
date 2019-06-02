@@ -1,4 +1,4 @@
-//这个部分是对于图片背景设置
+﻿//这个部分是对于图片背景设置
 1.背景色
 background-color: gray;改变文本的背景色padding: 20px
 其中背景色默认透明  transparent
@@ -47,3 +47,47 @@ white-space:normal/pre/nowrap/pre-wrap/pre-line/
 
 13.文本方向：
 direction:ltr/rtl;左右/右左
+
+//这个部分是设置字体
+14.设置字体系列
+font-family:sans-serif/Sans-serif/Monispace/Cursive/Fantasy
+但是上面五种只是大类，这里最好是设置特定字体，有下面用法；
+font-family:Georgia,serif;  注意的是字体名中含空格则需要加引号
+
+15.字体风格
+font-style:normal/italic/oblique;文本正常/文本斜体/文本倾斜；唯一选择
+
+16.字体变形
+font-variant:small-caps;  //设置小型大写字母;
+
+17.字体加粗
+font-weight:100~900;其中normal是400
+
+18.字体大小
+font-size:16px =1em; 默认的推荐使用em和百分比进行设置
+
+//链接设置样式
+19.链接存在四种状态：link,visited,hover,active;如果为不同状态设置样式，依照前面顺序来
+文本修饰，背景色，
+
+//列表设置
+20.修改列表项大的标志类型
+ul{ list-style-type:square;}
+ul li{list-style-image:url(xxx.gif)}  确定图像做标志
+list-style-position:inside;改变标志出现在表内还是表外，注意就是更加靠近列表，等同于tab键
+综上：li{list-style:url() square inside};多个值用分号隔开
+
+//css表格
+21.设置表格边框
+border:1px solid blue; 蓝色边框
+border-collapse: 提前设置表格式单边框，然后在设置border
+width,height;
+text-align:center/left/right;
+vertical-align:center/bottom/top; 上面两个是这是水平和垂直方向的对齐方式
+padding:  这个是设置如果表格的每个格子大小不一样
+
+
+//css轮廓
+outline-color:
+outline-style:none/dotted/solid/double/...
+outline-width:
