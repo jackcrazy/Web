@@ -1,0 +1,91 @@
+﻿1.对于中文网页需要使用设置编码；
+<meta charset = "utf-8">  或者gbk
+2.<!DOCTYPE html>  声明为html5文件  ，html不区分大小写
+3.只有body中内容才在浏览器中显示
+4.html标题<h1></h1>  浏览器会自动在标题前后添加空行，标题最好只用于标题，搜索引擎使用标题生成索引
+  html段落<p></p>
+  html超链接<a href = "">这是一个超链接</a>   target属性：_blank新窗口打开
+  html图像 <img src="" alt="" width="" height=""/>,图像的名称和尺寸是以属性的形式提供的,其中alt是指代替的文字
+  <br/>  换行，可用于段落换行
+  <hr>   水平线
+5.html属性
+  class 
+  id 每个元素只能定义一个
+  style 规定行内样式
+6.无法通过在HTML中添加额外的空格或者换行来改变输出的效果
+7.htmld的文本格式化
+8.<base href = "..." target ="_blank"> 定义了所有链接的默认网址
+9.<head>头部区域的元素标签为： <title>  <meta>  <link>  <script>  <base>
+10.<link rel = "stylesheet" type ="text/css" href = "mystyle.css"> 通常用于链接样式表
+11.style中可以直接添加样式
+12.<meta name = "" ,content = ""> 添加一些网页信息等
+13.<script>  用于加载脚本文件
+
+
+14.使用css文件来给html进行渲染 ，使用内嵌样式表给样式
+background-color:yellow  定义背景颜色
+font-family:verdana 字体
+color:red; 字体颜色
+font-size:20px 字体大小
+text-align:center 文本的水平与垂直对齐
+修改a标签的颜色必须使用内嵌标签
+
+15.设置表格,其中tr是指每一行，td是指每一列,如果是表头则是th
+<table>
+ 	<caption> </caption>   带有标题
+	<tr>
+		<th></th>
+	</tr>
+	<tr>
+		<td></td>
+	</tr>
+</table>
+
+16.无序列表 
+<ul>
+	<li></li>
+	.
+	.
+	<li></li>
+</ul>
+
+17.有序列表
+<ol>
+	<li></li>
+	.
+	.
+	<li></li>
+</ol>
+
+18.自定义列表
+<dl>
+	<dt></dt>  列表项开始
+	<dd></dd>  列表项的定义
+</dl>
+
+19.html区块
+div   span
+
+20.html表单一个包含表单元素的区域，表单元素是允许用户在表单中输入内容;
+textarea,下拉列表，单选框(radio-buttons)，复选框(checkboxes)
+<form>
+	First name:<input type="text" name="firstname"><br>
+	Password: <input type="password" name="pwd">
+</form>
+其中type类型  radio,text,password,checkbox,submit button 
+表单比较复杂，可以单独看看
+
+21.html框架，同一个浏览窗口显示不止一个页面，下面代码实现点击超链接展现新页面
+<iframe src="URL" frameborder="0" width="" height="" name="iframe_e"></iframe>
+<p> <a href = "" target="iframe_e">RUNN</a>
+
+22.颜色设置rgba(255,255,255,0.5),第四个是透明度0~1
+
+23.html脚本 
+js <script></script>   常用于图片操作，表单验证以及内容动态更新
+<noscript></noscript> 可包含所有body内的所有元素，通常用于在浏览器禁止使用脚本时才会出现显示
+
+24.html字符实体，用于一些html无法显示的字符显示
+&lt; 等同于 <
+&gt; 等同于 >
+&#169; 等同于 ©
