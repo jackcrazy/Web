@@ -1,0 +1,42 @@
+body{
+	margin :0 ;
+}
+
+
+/*
+	第一个部分
+*/
+.bgStyle{
+	background: #2166a9 ;
+	margin:0 atuo ;
+	padding :0;
+}
+.header{
+	padding:2% 5%;
+}
+
+/*
+	导航条
+*/
+
+.cssmenu {
+	float :right ;
+}
+ul{
+	list-style-type  :none;
+	margin : 0 ;
+	padding : 0 ;
+	
+}
+
+.cssmenu >ul >li {
+	float :left;
+	margin : 0 10px ;
+}
+
+.cssmenu >ul >li > a{
+	display :block ;
+	color: #fff;
+	font-family: sans-serif;
+	text-decoration: none;
+}
